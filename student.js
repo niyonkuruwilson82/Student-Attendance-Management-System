@@ -19,7 +19,7 @@ function submitFun1(e) {
     studentDataArr.push(studentObj);
     localStorage.setItem("studentData", JSON.stringify(studentDataArr));
     document.querySelector("#form1").reset();
-    alert("Student Added Successfully");
+    alert("Student Added Successfully .");
 
     displayFun(studentDataArr)
 }
